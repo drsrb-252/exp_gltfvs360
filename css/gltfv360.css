@@ -70,14 +70,9 @@ a{
     width: 100vw;
 }
 .gltfContainer{
-    width: 100vw;
-    height: 50vh;
+    width: 100vmax;
+    height: 50vmax;
     background: linear-gradient(rgb(64, 141, 219), white);
-    /*
-    height: 50vh
-        border: 2px dashed black;
-    background stuff
-    */
 }
 .textContainer{
     margin-top: 3vh;

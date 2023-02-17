@@ -1,0 +1,124 @@
+:root {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+html,
+body,
+main,
+article,
+aside,
+header,
+footer,
+nav,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+i,
+iframe,
+div,
+span,
+img,
+figure,
+figcaption,
+code {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  width: 100vw;
+  border-bottom: 10px solid black;
+}
+.myGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: linear-gradient(#2c8db6, #c16a3e, #c16a3e, #884523)
+}
+.mediaContainer {
+  background: url("../media/img/dustdevilBG.webp") left top/100% no-repeat;
+  min-height: 70vh;
+  grid-column: 1/4;
+  /* overflow: hidden; */
+}
+.textContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    /* line-height: 1.1rem; */
+    grid-column: 4/5;
+    color: #fdede4;
+}
+.audioContainer{
+    position: absolute;
+  left: 25%;
+  top:0.5%;
+  z-index: 100;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+/* border: 2px dotted white; */
+/* font-size: 2rem;
+font-weight:700; */
+  
+}
+/* .audioContainer{
+    /* grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    text-align: center;
+    position:absolute;
+    left: 25%;
+    transform: -50%, -50%;
+}
+/* audio{
+    position: relative;
+    align-self: center;
+} */
+model-viewer{
+    width: 100%;
+    height: 100%;
+    /* border: 2px dashed white; */
+    /*position: relative;
+    top: 10%; */
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    margin-top: 2.3rem;
+    font-size: 1.5rem;
+}
+span{
+    color:#884523;
+    background-color: #fdede4;
+    padding: 5px;
+    line-height: 3rem;
+    font-weight: bolder;
+
+}
+/* #a95c32; */
+/* rgb(169, 92, 50)  */
+/* background: linear-gradient(#3fa4d1 20%, #bbbab1, #a95c32, #a95c32, #a95c32); , #a95c32*/

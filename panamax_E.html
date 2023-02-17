@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <link rel="stylesheet" href="./css/layout_Panamax.css" />
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>Panamax_E</title>
+  </head>
+  <body>
+    <div class="audioContainer"> 
+      <h1>Narration</h1>
+      <audio controls controlsList="nodownload">
+        <source src="./media/audio/Panamax_e.mp3" type="audio/mp3">
+        <source src="./media/audio/Panamax_e.ogg" type="audio/ogg">
+      </audio> 
+    </div>
+   
+    <main class="myGrid">
+      <!-- <div class="audioContainer">
+        <audio controls controlsList="nodownload">
+          <source src="./media/audio/Panamax_e_01.mp3" type="audio/mp3" /> 
+        </audio>  
+      </div> -->
+      <div class="mediaContainer">
+       <model-viewer src="./media/gltf/panamaxForDestiny.glb" autoplay camera-controls shadow-intensity="2"></model-viewer>
+      </div>
+      <div class="textContainer">
+        <h2><u>How to Interact with the 3D Model</u></h2>
+        <p><span><b>Tumble or Spin</b></span> Click and drag using the left mouse button or <u>use one finger</u></p>
+        <p><span><b></b>Pan or Slide</b></span> Click and drag using the right mouse button or <u>use two fingers</u></p>
+        <p><span><b></b>Zooming in or out</b></span> Manipulate the middle mouse button or scroll wheel or <u>spread two fingers</u></p>
+      <p><span>Remember to play the audio narration as your interact with the 3D model</span></p>
+      </div>
+    </main> 
+  </body>
+</html>
+
+
+<!-- <audio src="./media/audio/Panamax_e_01.mp3" controls controlsList="nodownload">
+  <source src="./media/audio/Panamax_e_01.mp3" type="audio/mp3" /> 
+  <source src="./media/audio/Panamax_e_01.ogg" type="audio/ogg" /> 
+</audio>  
+</div> -->

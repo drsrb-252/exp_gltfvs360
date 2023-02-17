@@ -35,6 +35,34 @@ p>span{
     box-shadow: 2px 5px 5px rgba(79, 145, 202, 0.355);
 
 }
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content: center;
+    width: 100vw;
+    max-width: 100%;
+}
+.gltfContainer{
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(rgb(64, 141, 219), white);
+    /*
+    height: 50vh
+        border: 2px dashed black;
+    background stuff
+    */
+}
+.textContainer{
+    margin-top: 3vh;
+    margin-bottom: 1.25vh;
+    padding: 0 5px;
+}
+.audioContainer{
+    margin-top: 1vh;
+    text-align: center;
+}
 .special{
     padding: 5px;
     margin-right: 5px;
@@ -55,39 +83,10 @@ p>span:hover{
     box-shadow: 2px 5px 5px rgba(79, 145, 202, 0.355);
 
 }
-*/
+
 a{
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
 }
-.wrapper{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-content: center;
-    width: 100vw;
-}
-.gltfContainer{
-    width: 100vmax;
-    height: 50vmax;
-    background: linear-gradient(rgb(64, 141, 219), white);
-}
-.textContainer{
-    margin-top: 3vh;
-    margin-bottom: 1.25vh;
-}
-button{
-padding: 5px;
-    margin-right: 5px;
-    background-color: rgb(19, 62, 202);
-    font-size: 1.25rem;
-    border-radius: 3px;
-    color: white;
-    box-shadow: 2px 5px 5px rgba(79, 145, 202, 0.355);
-}
-.audioContainer{
-    margin-top: 1vh;
-    text-align: center;
-}
+*/

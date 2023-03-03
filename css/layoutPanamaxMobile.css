@@ -55,9 +55,9 @@ body {
   grid-row-start: 2;
   grid-row-end: 5;
   background: url("../media/img/panamaxBG.webp") left top/100% no-repeat;
-  border: 10px solid black;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* border: 10px solid black; */
+  padding-left: 1rem;
+  padding-right: 1rem;
   overflow: hidden;
   /* position:relative; */
 }
@@ -79,13 +79,13 @@ body {
 model-viewer {
   position: relative;
   top: -5vh;
-  width: 800px;
-  height: 800px;
+  /* width: 90%;
+  height: 90%; */
   margin-top: -5vh;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  /* border: 5px solid white; */
+  border: 5px solid white;
 }
 .empty {
   position: relative;

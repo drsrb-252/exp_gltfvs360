@@ -50,13 +50,15 @@ body {
   margin-bottom: 2.5rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  
 }
 #mediaContainerID {
   grid-row-start: 2;
   grid-row-end: 5;
   background: url("../media/img/panamaxBG.webp") left top/100% no-repeat;
-  border-top: 10px solid black;
+  border: 10px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
   /* position:relative; */
 }
 #audioContainerID {
@@ -72,8 +74,17 @@ body {
   color: white;
 }
 model-viewer {
-  width: 100%;
+  width: 80%;
   height: 75%;
+  margin: 0 auto;
+  /* border: 5px solid white; */
+}
+.empty {
+  position: relative;
+  top: -5vh;
+  height: 25vh;
+  width: 100%;
+  /* background-color: green; */
 }
 h1 {
   font-size: 3rem;
@@ -82,7 +93,6 @@ h1 {
 h2 {
   font-size: 2rem;
   margin: 0;
-}
 }
 p {
   margin-top: 2.3rem;

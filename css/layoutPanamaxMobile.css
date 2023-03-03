@@ -78,7 +78,10 @@ model-viewer {
   top: -5vh;
   width: 80%;
   height: 20vh;
-  margin: 0 auto;
+  margin-top: -5vh;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   /* border: 5px solid white; */
 }
 .empty {

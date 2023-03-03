@@ -76,8 +76,8 @@ body {
 model-viewer {
   position: relative;
   top: -5vh;
-  width: 80%;
-  height: auto;
+  width: 800px;
+  height: 800px;
   margin-top: -5vh;
   margin-bottom: 0;
   margin-left: auto;

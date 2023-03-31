@@ -32,11 +32,12 @@ code {
   padding: 0;
 }
 body {
-  viewport-fit: auto;
+  viewport-fit:auto;
   font-family: "Raleway", sans-serif;
-  max-width: minmax(100vw, 100%);
-  /* border-bottom: 10px solid black; */
+  width: 100dvw;
+  border-bottom: 10px solid black;
   background: linear-gradient(#84afcc, #86d6ee, #86d6ee);
+<<<<<<< HEAD
 }
 #myGridID {
   display: grid;
@@ -69,6 +70,35 @@ body {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
+=======
+  
+}
+.myGrid {
+  width: 90%;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+.textContainer {
+  grid-row: 1/2;
+  margin: 2vh;
+  width: 80ch;
+
+  
+}
+.mediaContainer {
+  background: url("../media/img/panamaxBG.webp") left top/100% no-repeat;
+  height: 55vh;
+  width: 100%;
+  grid-row: 2/5;
+  border-top: 10px solid black;
+
+  /* overflow: hidden; */
+}
+.audioContainer {
+  position: relative;
+  left: 3%;
+  top: 1%;
+>>>>>>> parent of 6710289 (Feb. 17, 2023)
   z-index: 100;
   display: flex;
   flex-direction: column;
@@ -77,6 +107,7 @@ body {
   color: white;
 }
 model-viewer {
+<<<<<<< HEAD
   position: relative;
   /* top: -5vh;
   width: 90%;
@@ -93,22 +124,30 @@ model-viewer {
   height: 25vh;
   width: 100%;
   /* background-color: green; */
+=======
+  width: 100vw;
+  height: 100%;
+>>>>>>> parent of 6710289 (Feb. 17, 2023)
 }
-h1 {
+h1{
   font-size: 3rem;
-  margin: 0;
+
 }
-h2 {
+h2{
   font-size: 2rem;
-  margin: 0;
+  text-align: center;
 }
+<<<<<<< HEAD
 p {
+=======
+p{
+>>>>>>> parent of 6710289 (Feb. 17, 2023)
   margin-top: 2.3rem;
-  font-size: 1.5rem;
-  color: #124257;
+  font-size: 1.25rem;
+  color:#124257;
 }
-span {
-  color: #2c8db6;
+span{
+  color:#2c8db6;
   background-color: #fdede4;
   padding: 5px;
   line-height: 3rem;
